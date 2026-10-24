@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Build output
+dist/
+dist-ssr/
+build/
+*.local
+
+# Vite
+.vite/
+.vite-cache/
+
+# Tauri / Rust
+src-tauri/target/
+src-tauri/gen/
+
+# Logi
+*.log
+logs/
+
+# Zmienne środowiskowe
+.env
+.env.*
+!.env.example
+
+# Edytory / system
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testy
+coverage/
+
+# Cache
+.cache/
+*.tsbuildinfo

@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Uprawnienia główne SocialHQ: okna i dialog plików (protokół asset konfigurowany w tauri.conf.json).",
+  "windows": ["main"],
+  "permissions": ["core:default", "dialog:default"]
+}
